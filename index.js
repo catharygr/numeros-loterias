@@ -6,7 +6,7 @@ const containerUno = document.querySelector('#containerUno')
 document.querySelector('.btn').addEventListener('click', muchaSuerte)
 
 const numeroRandom = () =>  Math.floor(Math.random() * 50) + 1
-const numeroRandomDos = () =>  Math.floor(Math.random() * 9) + 1
+const numeroRandomDos = () =>  Math.floor(Math.random() * 12) + 1
 
  let numerosAleatorios = []
  let dosAleatorios = []
